@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Avito</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container ">
+      <div class="header__top flex">
+        <a href="#" class="header__logo">
+          <img src="img/logotype.svg" alt="Logotype">
+        </a>
+<nav class="nav">
+  <ul class="list__reset nav__header">
+  </ul>
+</nav>
+<div class="btn__wrapper flex">
+  <button class="reset__btn btn btn__outline">Вход и регистрация</button>
+  <button class="reset__btn btn add__advert">
+    Подать объявление
+  </button>
+</div>
+<span class="burger">
+  <svg width="30.000000" height="14.999878" viewBox="0 0 30 14.9999" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs />
+    <path 
+      d="M29.06 6.56L0.93 6.56C0.41 6.56 0 6.98 0 7.49C0 8.01 0.42 8.43 0.93 8.43L29.06 8.43C29.58 8.43 29.99 8.01 29.99 7.49C29.99 6.98 29.58 6.56 29.06 6.56Z"
+      fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+    <path 
+      d="M29.06 13.12L10.31 13.12C9.79 13.12 9.37 13.54 9.37 14.06C9.37 14.57 9.79 14.99 10.31 14.99L29.06 14.99C29.58 14.99 29.99 14.57 29.99 14.06C30 13.54 29.58 13.12 29.06 13.12Z"
+      fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+    <path 
+      d="M0.93 1.87L29.06 1.87C29.58 1.87 29.99 1.45 29.99 0.93C29.99 0.41 29.57 0 29.06 0L0.93 0C0.41 0 0 0.42 0 0.93C0 1.45 0.42 1.87 0.93 1.87Z"
+      fill="#000000" fill-opacity="1.000000" fill-rule="nonzero" />
+  </svg>
+  
+</span>
+      </div>
+
+    </div>
+   
+  </header>
+  
+  <main class="main">
+    <div class="container">
+      <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="search flex">
+        <input type="search" name="search" id="search" class="form__input form__input--search"
+          placeholder="Поиск по объявлениям">
+        <button class="reset__btn btn search__btn"><span class="search__icon">
+            <svg width="14.650574" height="14.650574" viewBox="0 0 14.6506 14.6506" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs />
+              <path 
+                d="M14.65 14.02L10.08 9.46C10.94 8.45 11.47 7.15 11.47 5.73C11.47 2.57 8.89 0 5.73 0C4.2 0 2.76 0.59 1.67 1.67C0.59 2.76 -0.01 4.2 0 5.73C0 8.89 2.57 11.47 5.73 11.47C7.15 11.47 8.45 10.94 9.46 10.08L14.02 14.65L14.65 14.02ZM5.73 10.58C3.06 10.58 0.88 8.41 0.88 5.73C0.88 4.43 1.38 3.21 2.3 2.3C3.21 1.38 4.43 0.88 5.73 0.88C8.41 0.88 10.58 3.05 10.58 5.73C10.58 8.41 8.41 10.58 5.73 10.58Z"
+                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+            </svg>
+          </span> <span class="search__text">Найти</span> </button>
+      </form>
+      <div class="wrapper__content flex">
+        <section class="content">
+        <h2 class="section__title">Рекомендации для вас</h2>
+        <ul class="list__reset list__content flex">
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+    <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+    <h3 class="advert__title">Пвх материал 2й сорт</h3>
+    <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+    <p class="advert__adress">Казань, р-н Вахитовский</p>
+    <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+  </a>
+  </article>
+</li>
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+      <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+      <h3 class="advert__title">Пвх материал 2й сорт</h3>
+      <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+      <p class="advert__adress">Казань, р-н Вахитовский</p>
+      <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+    </a>
+  </article>
+</li>
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+      <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+      <h3 class="advert__title">Пвх материал 2й сорт</h3>
+      <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+      <p class="advert__adress">Казань, р-н Вахитовский</p>
+      <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+    </a>
+  </article>
+</li>
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+      <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+      <h3 class="advert__title">Пвх материал 2й сорт</h3>
+      <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+      <p class="advert__adress">Казань, р-н Вахитовский</p>
+      <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+    </a>
+  </article>
+</li>
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+      <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+      <h3 class="advert__title">Пвх материал 2й сорт</h3>
+      <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+      <p class="advert__adress">Казань, р-н Вахитовский</p>
+      <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+    </a>
+  </article>
+</li>
+<li class="content__item">
+  <article class="advert">
+    <a href="#" class="advert__link">
+      <img src="img/advert_img_1.jpeg" alt="Image advertisement" class="advert__img">
+      <h3 class="advert__title">Пвх материал 2й сорт</h3>
+      <p class="advert__price">170 <span class="advert__price--icon">₽</span> </p>
+      <p class="advert__adress">Казань, р-н Вахитовский</p>
+      <time datetime="2025-07-10T11:39" class="advert__time">10 июля 11:39</time>
+    </a>
+  </article>
+</li>
+        </ul>
+        </section>
+        <aside class="aside">
+          <h2 class="section__subtitle">Сервисы и услуги</h2>
+          </aside>
+      </div>
+      
+    </div>
+  </main>
+</body>
+</html>
