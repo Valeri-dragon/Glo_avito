@@ -308,14 +308,11 @@ body {
 .list__services{
   flex-direction: column;
   gap: 30px;
-  padding-left: 15px;
   margin-bottom: 120px;
 }
 .list__services::after{
   content: "";
-  margin-top: 10px;
-  margin-left: -15px;
-  width: 100%;
+     width: 100%;
   min-width: 259px;
 
   border: 1px solid #E5E5E5;
@@ -338,4 +335,28 @@ body {
 .link__aside{
   text-decoration: underline;
   letter-spacing: .02px;
+}
+/*product*/
+.product__container{
+  gap: 30px;
+ }
+
+.product__img{
+  border-radius: var(--brdr);
+  margin-bottom: 20px;
+}
+.product__descr{
+  max-width: 320px;
+  line-height: 140%;
+}
+.product__price_phone{
+  flex-direction: column;
+  gap: 30px;
+}
+.product__price{
+  font-size: 24px;
+  font-weight: 700;
+}
+.btn__phone{
+  padding: 19px 71px;
 }
